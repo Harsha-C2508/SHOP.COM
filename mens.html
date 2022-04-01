@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/mens.css">
+    <script
+      src="https://kit.fontawesome.com/24c494a6b6.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@100;500&family=Fredoka&family=Montserrat:ital,wght@0,500;0,700;1,200;1,600&family=Open+Sans:wght@300;400&family=Oswald:wght@300&family=PT+Serif&family=Poppins:wght@500&family=Roboto+Condensed:wght@300&family=Roboto:wght@300;700&display=swap" rel="stylesheet">
+    <title>SHOP.COM/MENS COLLECTION</title>
+</head>
+<body>
+    <div id="add">
+        <h4>Earn extra cashback through March 28 on select partner stores. <a href="">shop.com</a>
+        </h4>
+    </div>
+    <div id="header">   
+        <div id="navbar">
+            <img class="img" src="https://img.shop.com/Image/resources/logos/shop-logo-us.svg" alt="logo">
+            <div id="searchbar"><select id="depart">
+                <option value="All Departments">All Departments</option>
+                <option value="Auto">Auto</option>
+                <option value="Baby">Baby</option>
+                <option value=">Beauty">Beauty</option>
+                <option value="Book">Book</option>
+                <option value="Bussiness">Bussiness</option>
+                <option value="Camera">Camera</option>
+                <option value="Cloths">Cloths</option>
+                <option value="Collectibles">Collectibles</option>
+                <option value="Computer">Computer</option>
+                <option value="Craft">Craft</option>
+                <option value="ELectronics">ELectronics</option>
+                <option value="Food and Drink">Food and Drink</option>
+                <option value="Garden">Garden</option>
+                <option value="Health & Nutrition">Health & Nutrition</option>
+                <option value="Home Store">Home Store</option>
+                <option value="Jewelry">Jewelry</option>
+                <option value="Movies">Movies</option>
+                <option value="Music">Music</option>
+                <option value="Party Supplies">Party Supplies</option>
+                <option value="Pet Supplies">Pet Supplies</option>
+                <option value="Posters">Posters</option>
+                <option value="Shoes">Shoes</option>
+                <option value="Software">Software</option>
+                <option value="Sports Fan Sho">Sports Fan Shop</option>
+                <option value="Sports and Fitness">Sports and Fitness</option>
+                <option value="Tools">Tools</option>
+                <option value="Toys">Toys</option>
+                <option value="Travel">Travel</option>
+                <option value="Video Games">Video Games</option>
+              </select>
+              <input type="text" placeholder="Search SHOP.COM">
+              <i id="search" class="fa-solid fa-magnifying-glass"></i>
+           </div>
+           <img class="add" src="https://img.shop.com/Image/header2013/shop-usa-99472-womans-history-month-banner-header1646750930780.png" alt="add">
+        </div>
+        <div id="secHead">
+            <i class="fa-solid fa-bars" id="threeline"></i>
+            <div class="heightlights">
+                <h3><a href="">Exclusive Brands</a></h3>
+                <h3><a href="">Stores</a></h3>
+                <h3><a href="">Deals</a></h3>
+                <h3><a href="">SHOP Travel</a> </h3>
+                <h3><a href="">Departments</a> </h3>
+                <h3><a href="">ShopBuddy</a></h3>
+                <h3><a href="">SHOP Local</a></h3>
+            </div>
+            <div id="icons">
+                <div><i class="fa-solid fa-user"></i></div>
+                <div><img src="https://img.shop.com/Image/resources/images/icon-orders-24px.svg" alt=""></div>
+                <div><a href="./chechout.html"><i class="fa-solid fa-cart-shopping" id="menu"></i></a></div>
+            </div>
+        </div>
+    </div>
+    <div id="nav"></div>
+    <div class="sorting">
+        <label>Sort:</label>
+        <select id="sort" onchange="handlePriceSort()">
+            <option value="">Best Match</option>
+            <option value="PHL">Price High-Low</option>
+            <option value="PLH">Price Low-High</option>
+            <option value="">Most Cashback</option>
+        </select>
+    </div>
+    <div id="page">
+       <div id="contain">
+        <div class="div1">
+            <input type="checkbox">
+            <img src="https://img.shop.com/Image/resources/images/onecart-logo_icon.svg" alt="">
+          (12,636)
+        </div>
+        <div class="div2">
+            <input type="checkbox">
+            <p>Sale items(23,470)</p>
+        </div>
+        <div class="div3">
+            <input type="checkbox">
+            <p>Shiping offers(10,281)</p>
+        </div>
+        <div class="div4">
+            <h2>
+                <span>Men's T-Shirt Types</span>
+                <span><i class="fa-solid fa-chevron-up"></i></span>
+            </h2>
+            <ul>
+                <li>Cartoon and animation (8,583)</li>
+                <li>Plain (7,161)</li>
+                <li>Logos & Brand Nmes (1,587)</li>
+                <li>Animals (826)</li>
+                <li>Musicians & Music Groups (662)</li>
+                <li>Holidays,Events & Special Occasions (440)</li>
+                <li>States,Countries & Nationalities (326)</li>
+                <li>Tie-Dyed (305)</li>
+                <li>Family and Friends (219)</li>
+                <li>Food and Drink (187)</li>
+                <li>+ See More</li>
+            </ul>
+        </div>
+        <div class="div4">
+            <h2>
+                <span>Men's Sleeve Length</span>
+                <span><i class="fa-solid fa-chevron-up"></i></span>
+            </h2>
+            <ul>
+                <li>Short (15,306)</li>
+                <li>Long (2,309)</li>
+                <li>Sleeveless (241)</li>
+            </ul>
+        </div>
+        <div class="div4">
+            <h2>
+                <span>Color</span>
+                <span><i class="fa-solid fa-chevron-up"></i></span>
+            </h2>
+            <ul>
+                <li>Black (9,449)</li>
+                <li>Blue (4,626)</li>
+                <li>Gray (1,614)</li>
+                <li>Green (1,954)</li>
+                <li>Navy (679)</li>
+                <li>Orange (482)</li>
+                <li>Pink (1,338)</li>
+                <li>Purple (653)</li>
+                <li>Red (2,439)</li>
+                <li>White (3,065)</li>
+                <li>+ See More</li>
+            </ul>
+        </div>
+        <div class="div4">
+            <h2>
+                <span>Fabric</span>
+                <span><i class="fa-solid fa-chevron-up"></i></span>
+            </h2>
+            <ul>
+                <li>Cotton & Blends (14,124)</li>
+                <li>Polyester (2,536)</li>
+                <li>Denim (138)</li>
+                <li>Satin (103)</li>
+                <li>Knit(39)</li>
+                <li>Fleece (34)</li>
+                <li>Nylon (33)</li>
+                <li>Canvas (28)</li>
+                <li>Lycra (28)</li>
+                <li>Suede (22)</li>
+                <li>+ See More</li>
+            </ul>
+        </div>
+        <div class="div4">
+            <h2>
+                <span>Size</span>
+                <span><i class="fa-solid fa-chevron-up"></i></span>
+            </h2>
+            <ul>
+                <li>1X (80)</li>
+                <li>2X (6,997)</li>
+                <li>3X (1,375)</li>
+                <li>4X (455)</li>
+                <li>5X (295)</li>
+                <li>L (4,333)</li>
+                <li>M (2,205)</li>
+                <li>S (2,665)</li>
+                <li>XL (1,086)</li>
+                <li>XS (536)</li>
+                <li>+ See More</li>
+            </ul>
+        </div>
+        <div class="div4">
+            <h2>
+                <span>Special Size</span>
+                <span><i class="fa-solid fa-chevron-up"></i></span>
+            </h2>
+            <ul>
+                <li>Any Size (33,001)</li>
+                <li>Big & Tall (107)</li>
+                <li>Juniors (18)</li>
+                <li>Petite (120)</li>
+                <li>Plus (399)</li>
+                <li>Young Men (9)</li>
+            </ul>
+        </div>
+        <div class="div4">
+            <h2>
+                <span>Brand</span>
+                <span><i class="fa-solid fa-chevron-up"></i></span>
+            </h2>
+            <ul>
+                <li>Star Wars (1,096)</li>
+                <li>Lost Gods (1,092)</li>
+                <li>Disney (665)</li>
+                <li>Champion (653)</li>
+                <li>Glidan (643)</li>
+                <li>Xersion (418)</li>
+                <li>ARIZONA (333)</li>
+                <li>Puma (308)</li>
+                <li>DC (274)</li>
+                <li>Bioworld (241)</li>
+                <li>+ See More</li>
+            </ul>
+        </div>
+        <div class="div4">
+            <h2>
+                <span>Store</span>
+                <span><i class="fa-solid fa-chevron-up"></i></span>
+            </h2>
+            <ul>
+                <li>Macy's (8,940)</li>
+                <li>Fifth Sun (5,536)</li>
+                <li>JC Penney (5,386)</li>
+                <li>GameStop (3,964)</li>
+                <li>Main Merch (1,474)</li>
+                <li>Pertemba US (1,393)</li>
+                <li>Tags Weekly (1,220)</li>
+                <li>Talbots (897)</li>
+                <li>Dollar Days (706)</li>
+                <li>Azura Runway (630)</li>
+                <li>+See More</li>
+            </ul>
+        </div>
+        <div class="div4">
+            <h2>
+                <span>Price Range</span>
+                <span><i class="fa-solid fa-chevron-up"></i></span>
+            </h2>
+            <ul>
+                <li>$20.00 and Below (22,968)</li>
+                <li>$20.01 - $25.00 (4,534)</li>
+                <li>$25.01 - $30.00 (2,494)</li>
+                <li>$430.01 - $50.00 (2,326)</li>
+                <li>$50.01 and above (1,853)</li>
+                <input type="text" placeholder="MIN"><input type="text" placeholder="MAX"><input type="text" placeholder=">">
+            </ul>
+        </div>
+       </div>
+       <div id="container">
+
+       </div>
+    </div>
+</body>
+</html>
+<script src="./script/mens.js"></script>

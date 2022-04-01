@@ -1,0 +1,203 @@
+#mainempty{
+    height: 730px;
+    width:100%;
+    border:0px solid blue;
+    display:flex;
+    gap:30px;
+    /* grid-template-columns: repeat(2,1fr); */
+   justify-content: space-around;
+
+
+}
+#left{
+    height:80%;
+    width:65%;
+    border:0px solid black;
+    padding:10px
+
+
+}
+#left>div{
+    padding: 5px;
+    background-color:  #f0f1f7;
+}
+#left>div>p{
+    height: 10px;
+    font-size:16 px;
+    /* padding:10px; */
+   color:darkslategray;
+   margin-top:0px;
+   font-weight: bold;
+   display:flex;
+}
+
+button{
+    height:fit-content;
+    border: #f0f1f7;
+
+}
+#shoe{
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+#right{
+    background-color:  #f0f1f7;
+    width:30%;
+    border:0px solid #28305e;
+    padding:20px;
+    margin:5px
+
+}
+
+#right>div{
+    position: absolute;
+    right:0;
+    width:29%;
+    font-size: 20px;
+}
+#right>div>div{
+    margin-left: -20px;
+}
+#right>div:last-child{
+    /* border:1px solid red; */
+    margin-top:90px;
+   margin-right: 10px;
+    text-align: end;
+    font-size: 18px;
+}
+#sub{
+    font-size: 25px;
+    margin-left:10px
+}
+#learn{
+    margin-right:20px;
+    border:0px solid black
+}
+#zip{
+    background-color: white;
+    display: flex;
+    width:65%;
+    border: 0px solid red;
+    justify-content: space-between;
+    margin-left:130px;
+    height:40px;
+    padding:10px;;
+    gap:10px;
+    margin-top:50px;
+
+}
+#zip>input{
+    border:1px solid black;
+  height:45px;
+  width:35%;
+  font-style: italic;
+  margin-top: -5px;
+  font-size: 15px;
+
+}
+ #right button{
+    height:50px;
+    width:60%;
+    color:white;
+    font-size: 20px;
+    background-color: #414467;
+     margin-top: -5px;
+     cursor:pointer
+}
+#checkout button{
+  margin-top: 30px;
+  width:50%;
+  margin-right:30px;
+  cursor:pointer
+}
+#checkbtn a{
+ color: white;
+ text-decoration: none;
+}
+#pay>p{
+    margin-top:30px;
+    background-color: white;
+    width: 40%;
+    border: 1px solid #dadbe6;
+    border-radius: 6px;
+    font-weight: bolder;
+    margin-left: 0px;
+}
+
+ #pay>div{
+     margin-top: -19px;
+    background-color: white;
+    /* border:1px solid red; */
+    margin-left: -25px;
+    border: 1px solid #ffffff;
+    border-radius: 6px;
+    color:#272340;
+    display:flex;
+   margin-right: 10px;
+ }
+ #pay>div>img{
+    /* border:1px solid red; */
+    margin-left: 30px;
+    padding:20px;
+
+
+ }
+
+
+.cart-page{
+    margin: 80px auto;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.cart-info{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+th{
+    text-align: left;
+    padding: 5px;
+    font-weight: normal;
+
+    background-color: rgb(58, 58, 117);
+}
+
+td{
+    padding: 10ox 5px;
+    background-color: rgb(247, 234, 234);
+}
+td input{
+    width: 40px;
+    height: 30px;
+    padding: 5px;
+}
+td a{
+    color:#ff523b;
+    font-size: 16px;
+}
+
+td img{
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+}
+.cart-info div{
+    margin-top: -5px;
+    font-size: 18px;
+}
+
+#sub{
+    display: flex;
+}
+
+#sub>p{
+    margin: 10px;
+}
+#sub>p:last-child{
+    display: flex;
+}
+table>tr:last-child{
+    margin: 20px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}

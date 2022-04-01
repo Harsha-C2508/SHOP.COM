@@ -1,0 +1,96 @@
+body {
+    background-color: #071138;
+    padding: 0;
+    margin: 0;
+  }
+  #thanks {
+    height: 900px;
+    width: 40%;
+  
+    margin: auto;
+    background-color: hsl(0, 0%, 90%);
+  }
+  #shoplogo {
+    height: 60px;
+    width: 170px;
+  
+    margin: auto;
+    padding-top: 5px;
+  }
+  #bag {
+    height: 90px;
+    width: 120px;
+  
+    margin: auto;
+  }
+  #bag > img {
+    height: 100%;
+    width: 100%;
+  }
+  p {
+    text-align: center;
+    color: #071138;
+    font-size: 50px;
+    font-weight: bold;
+    padding-top: 0;
+    margin-top: 1%;
+  }
+  #happy {
+    height: 45px;
+    width: 550px;
+    margin: auto;
+  
+    background-color: skyblue;
+    text-align: center;
+    text-decoration: #071138;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 1%;
+    border-radius: 50px;
+  }
+  h3 {
+    text-align: center;
+  }
+  h1 {
+    text-align: center;
+  }
+  #moneyback {
+    height: 100px;
+    width: 130px;
+    margin: auto;
+  
+    border-radius: 50px;
+  }
+  #moneyback > img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+  }
+  h5 {
+    text-align: center;
+  }
+  #announce {
+    height: 200px;
+    width: 100%;
+  
+    background-color: azure;
+  }
+  #announce > p {
+    color: red;
+    font-size: 30px;
+  }
+  #announce > p:nth-child(2) {
+    color: #071138;
+    font-size: 16px;
+    margin-top: 5px;
+  }
+  #lastimage {
+    height: 90px;
+    width: 150px;
+  
+    margin: auto;
+  }
+  #lastimage > img {
+    height: 100%;
+    width: 100%;
+  }
