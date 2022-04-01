@@ -5,8 +5,9 @@ It took almost 6 days to make my website completely perfect.
 
 Introduction:
 
-    During those 6 days I have struggled a lot and those days taught me many valuable things. I would like to
-compare my situation to a saying i.e. performing a group item alone . This was the exact situation I have faced during my 
+    During those 6 days I have struggled a lot and those days taught me many valuable things.
+I would like to compare my situation to a saying i.e. performing a group item alone . This was 
+the exact situation I have faced during my 
 initial days but day by day I have come up with more confidence.
  
 Tool used:
