@@ -53,6 +53,6 @@ Conclusion:
  I had struggled a lot in those days but at the last day I was happy to see my website .
 
 
-Video Link: https://drive.google.com/file/d/1yha6TTEhzVIXMKGKFn-eSLXb44BNw6GH/view?usp=sharing
+Demo video: https://drive.google.com/file/d/1yha6TTEhzVIXMKGKFn-eSLXb44BNw6GH/view?usp=sharing
 Medium Link:https://medium.com/@harshac2508/shop-com-8ee28878abc1
 Netlify Link:https://glistening-blini-a1a96e.netlify.app/
